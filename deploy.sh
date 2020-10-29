@@ -5,7 +5,7 @@ set -e
 
 git pull
 git add -A
-git commit -m "test commit"
+git commit -m "[#8] feat: 제네릭 예제, 타입 제한 추가"
 git push origin master
 
 # build
