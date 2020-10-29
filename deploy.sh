@@ -5,7 +5,7 @@ set -e
 
 git pull
 git add -A
-git commit -m "[#8] feat: 제네릭 예제, 타입 제한 추가"
+git commit -m "test commit"
 git push origin master
 
 # build
@@ -24,6 +24,6 @@ git commit -m 'deploy with vuepress'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Kyounghwan01/blog.git master:gh-pages
+git push -f git@github.com:GeunHeeKim/blog.git master:gh-pages
 
 cd -
